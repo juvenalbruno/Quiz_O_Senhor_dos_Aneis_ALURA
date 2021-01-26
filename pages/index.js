@@ -1,10 +1,13 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import Widget from '../src/Widget';
 import QuizBackground from '../src/QuizBackground';
 import Footer from '../src/Footer';
 import GitHubCorner from '../src/GitHubCorner';
-
 
 // const BackgroundImage = styled.div `
 //   background-image: url(${db.bg});
@@ -25,27 +28,53 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-  return( 
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
+  return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>AluraQuiz - Modelo: O Senhor dsos Anéis</title>
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
             <h1>O Senhor dos Anéis</h1>
           </Widget.Header>
           <Widget.Content>
-              <p>lorem ipsum dolor sit amet....</p>
+            <form onSubmit={(infosDoEvento) => {
+              infosDoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+              // router manda para a próxima pagina
+            }}
+            >
+              <input
+                onChange={(infosDoEvento) => {
+                  console.log(infosDoEvento.target.value);
+                  // State
+                  // name = infosDoEvento.target.value;
+                  setName(infosDoEvento.target.value);
+                }}
+                placeholder="Diz ai teu nome!"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar
+                {' '}
+                {name}
+              </button>
+            </form>
           </Widget.Content>
         </Widget>
         <Widget>
           <Widget.Content>
-              <h1>Quizes da Galera</h1>
+            <h1>Quizes da Galera</h1>
 
-              <p>lorem ipsum dolor sit amet....</p>
+            <p>lorem ipsum dolor sit amet....</p>
           </Widget.Content>
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/juvenalbruno"/>
+      <GitHubCorner projectUrl="https://github.com/juvenalbruno" />
     </QuizBackground>
   );
 }
