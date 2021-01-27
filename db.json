@@ -4,12 +4,124 @@
     "description": "Descrição do seu quiz aqui",
     "theme": {
         "colors": {
-            "primary": "#4CAF50",
+            "primary": "#4BAF39",
             "secondary": "#FF9800",
             "mainBg": "#1C1814",
             "contrastText": "#FFFFFF",
             "wrong": "#FF5722",
             "success": "#4CAF50"
         }
-    }
+    },
+    "questions": [
+        {
+            "image": "https://images3.alphacoders.com/675/thumb-1920-675237.jpg",
+            "title": "Qual o nome do primeiro filme da franquia?",
+            "description": "Pergunta mamão com açúcar!",
+            "answer": 1,
+            "alternatives": [
+                "O senhor dos Anéis - Sociedade do Anel",
+                "O Senhor dos Anéis - As Duas Torres",
+                "O Senhor dos Anéis - O Retorno do Rei"
+            ]
+        },
+        {
+            "image": "https://manualdosgames.com/wp-content/uploads/2019/07/o-senhor-dos-aneis-tablet.jpg",
+            "title": "Qual frase se refere ao Anel forjado para Sauron?",
+            "description": "Pergunta mamão com açúcar 2.0!",
+            "answer": 1,
+            "alternatives": [
+                "Um Anel para o mundo governar",
+                "Um Anel para poder controlar",
+                "Um Anel para a todos governar, um Anel para encontrá-los"
+            ]
+        },
+        {
+            "image": "https://i.imgur.com/ghALwXu.jpg",
+            "title": "Pergunta 3",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://images5.alphacoders.com/463/thumb-1920-463120.jpg",
+            "title": "Pergunta 4",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://images.alphacoders.com/528/thumb-1920-528414.jpg",
+            "title": "Pergunta 5",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://i.pinimg.com/originals/0a/a2/e6/0aa2e6a462859a6026f7f3fd706ff035.jpg",
+            "title": "Pergunta 6",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2017/12/1-sauron.jpg",
+            "title": "Pergunta 7",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://sm.ign.com/t/ign_br/screenshot/default/gollum-digital-art-hd-wallpaper-1920x1080-45545_snfe.h960.jpg",
+            "title": "Pergunta 8",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://ibcdn.canaltech.com.br/r_8_BVUQM_4xXcTAagADmwE1nOc=/512x288/smart/i394334.jpeg",
+            "title": "Pergunta 9",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "image": "https://c.wallhere.com/photos/b7/68/Gandalf_The_Lord_of_the_Rings_artwork_face_fantasy_art-1362151.jpg!d",
+            "title": "Pergunta 10",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "",
+                "",
+                ""
+            ]
+        }
+    ]
 }

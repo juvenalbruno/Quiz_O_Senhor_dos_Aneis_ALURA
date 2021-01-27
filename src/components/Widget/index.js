@@ -28,6 +28,7 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
+  border-radius: 5px 5px 0 0;
 
   * {
     margin: 0;
@@ -35,6 +36,8 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
+  background-color: rgba(0, 0, 0, 0.9 );
+  border-radius: 0 0 5px 5px;
   padding: 24px 32px 32px 32px;
   & > *:first-child {
     margin-top: 0%;
@@ -45,6 +48,24 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 
