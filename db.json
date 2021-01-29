@@ -17,7 +17,7 @@
             "image": "https://images3.alphacoders.com/675/thumb-1920-675237.jpg",
             "title": "Qual o nome do primeiro filme da franquia?",
             "description": "Pergunta mamão com açúcar!",
-            "answer": 1,
+            "answer": 0,
             "alternatives": [
                 "O senhor dos Anéis - Sociedade do Anel",
                 "O Senhor dos Anéis - As Duas Torres",
@@ -28,7 +28,7 @@
             "image": "https://manualdosgames.com/wp-content/uploads/2019/07/o-senhor-dos-aneis-tablet.jpg",
             "title": "Qual frase se refere ao Anel forjado para Sauron?",
             "description": "Pergunta mamão com açúcar 2.0!",
-            "answer": 1,
+            "answer": 2,
             "alternatives": [
                 "Um Anel para o mundo governar",
                 "Um Anel para poder controlar",
@@ -38,90 +38,94 @@
         {
             "image": "https://i.imgur.com/ghALwXu.jpg",
             "title": "Pergunta 3",
-            "description": "",
+            "description": "Quem está sepultado nas minas de Moria?",
             "answer": 1,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Glóin",
+                "Balin",
+                "Thorin"
             ]
         },
         {
             "image": "https://images5.alphacoders.com/463/thumb-1920-463120.jpg",
             "title": "Pergunta 4",
-            "description": "",
-            "answer": 1,
+            "description": "Como são chamado os cavaleiros que servem a Sauron?",
+            "answer": 2,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Troll",
+                "Cavaleiros Negos",
+                "Nazgûl"
             ]
         },
         {
             "image": "https://images.alphacoders.com/528/thumb-1920-528414.jpg",
             "title": "Pergunta 5",
-            "description": "",
-            "answer": 1,
+            "description": "Gandalf se tornou um poderoso mago branco após matar uma criatura de sombra e chamas acordada pelos anões chamada de:",
+            "answer": 2,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Souron",
+                "Nazgû",
+                "Balrog"
             ]
         },
         {
             "image": "https://i.pinimg.com/originals/0a/a2/e6/0aa2e6a462859a6026f7f3fd706ff035.jpg",
             "title": "Pergunta 6",
-            "description": "",
+            "description": "Como o Portal Oeste de Moria surgiu para a expedição do anel?",
             "answer": 1,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Por meio da força de vontade dos que estavam ali",
+                "Por meio da luz da lua e das estrelas",
+                "Pela presença do Anel"
             ]
         },
         {
             "image": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2017/12/1-sauron.jpg",
             "title": "Pergunta 7",
-            "description": "",
-            "answer": 1,
+            "description": "Qual o nome do senhor do escuro em O Senhor Dos Anéis?",
+            "answer": 0,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Sauron",
+                "Saruman",
+                "Balrog"
             ]
         },
         {
             "image": "https://sm.ign.com/t/ign_br/screenshot/default/gollum-digital-art-hd-wallpaper-1920x1080-45545_snfe.h960.jpg",
             "title": "Pergunta 8",
-            "description": "",
-            "answer": 1,
+            "description": "Por que Gollum após ficar muito tempo com o Anel do poder fica com uma aparência totalmente deformada?",
+            "answer": 2,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Porque o Anel do poder absorve toda energia de seu portador",
+                "Porque o Anel do poder tem vontade própria",
+                "Porque o Anel do poder deixa seu portador obcecado por ele, Fazendo com que seu desejo de poder aumente, prologando a idade"
             ]
         },
         {
             "image": "https://ibcdn.canaltech.com.br/r_8_BVUQM_4xXcTAagADmwE1nOc=/512x288/smart/i394334.jpeg",
             "title": "Pergunta 9",
-            "description": "",
-            "answer": 1,
+            "description": "Quem destrói o Anel do poder no final da trilogia O Senhor Dos Anéis?",
+            "answer": 0,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Frodo Bolseiro",
+                "Gollum",
+                "Samwise Gamgee (Sam)"
             ]
         },
         {
             "image": "https://c.wallhere.com/photos/b7/68/Gandalf_The_Lord_of_the_Rings_artwork_face_fantasy_art-1362151.jpg!d",
             "title": "Pergunta 10",
-            "description": "",
-            "answer": 1,
+            "description": "Porque Gandalf não segura o Anel?",
+            "answer": 0,
             "alternatives": [
-                "",
-                "",
-                ""
+                "Ao poder do Anel, se tornaria uma figura escura, maligna e tiranica",
+                "Devido ao poder que ja possui, o Anel não seria eficaz",
+                "Devido ao poder do bruxo, Sauron poderia voltar ao mundo dos vivos"
             ]
         }
+    ],
+    "external": [
+        "https://aluraquiz-css.omariosouto.vercel.app/",
+        "https://aluraquiz-marvel.omariosouto.vercel.app/"
     ]
 }
