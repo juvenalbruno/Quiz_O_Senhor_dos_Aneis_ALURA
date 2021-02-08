@@ -30,8 +30,5 @@
 <h4>Janela do quiz (Exemplo)</h4>
 <img src="./imgQuiz/Quiz2.png">
 <br/>
-<h4>Janela do quiz (Exemplo)</h4>
+<h4>Janela de resultado (Exemplo)</h4>
 <img src="./imgQuiz/Quiz3.png">
-<br/>
-<h4>Janela de Resultado (Exemplo)</h4>
-<img src="./imgQuiz/Quiz4.png">
