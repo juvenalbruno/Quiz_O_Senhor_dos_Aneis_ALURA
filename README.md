@@ -1,4 +1,4 @@
-<p align='center'><img width='200' src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/c4w638X.svg" background={{black}}></p>
+<p align='center'><img width='200' src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/c4w638X.png" background={{black}}></p>
 <h1 align='center'>Ecoleta - NLW#1 - v1.0</h1>
 
 <h3>🔖 Descrição</h3>
