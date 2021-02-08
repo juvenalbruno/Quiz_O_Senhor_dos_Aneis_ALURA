@@ -25,13 +25,13 @@
     
 <h3>🖼 Layout</h3>
 <h4>Janela Home</h4>
-<img src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/CapaQuiz.png">
+<img src="./imgQuiz/CapaQuiz.png">
 <br/>
 <h4>Janela do quiz (Exemplo)</h4>
-<img src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/Quiz2.png">
+<img src="./imgQuiz/Quiz2.png">
 <br/>
 <h4>Janela do quiz (Exemplo)</h4>
-<img src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/Quiz3.png">
+<img src="./imgQuiz/Quiz3.png">
 <br/>
 <h4>Janela de Resultado (Exemplo)</h4>
-<img src="./Quiz_O_Senhor_dos_Aneis_ALURA/imgQuiz/Quiz4.png">
+<img src="./imgQuiz/Quiz4.png">
